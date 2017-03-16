@@ -1,0 +1,12 @@
+﻿# Исключаем данные IDEA:
+.idea/
+.mvn/
+target/
+
+mvnw
+_testTask
+ 
+/*.*
+!.gitignore
+!.readme
+!pom.xml
