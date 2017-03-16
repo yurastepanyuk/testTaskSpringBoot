@@ -1,0 +1,27 @@
+<html layout:decorator="layout">
+
+<div layout:fragment="content">
+
+     <table class="table table-striped" id="posts_list">
+        <thead>
+        <tr>
+            <th>Rendering engine</th>
+            <th>Browser</th>
+            <th>Platform</th>
+            <th>Engine version</th>
+            <th>Css grade</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr data-th-each="post : ${posts}">
+            <td class="message" data-th-text="${post.rendering_engine}"></td>
+            <td class="message" data-th-text="${post.browser}"></td>
+            <td class="message" data-th-text="${post.platform}"></td>
+            <td class="message" data-th-text="${post.engine_version}"></td>
+            <td class="message" data-th-text="${post.css_grade}"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</html>
