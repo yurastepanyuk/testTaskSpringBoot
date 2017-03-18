@@ -30,7 +30,7 @@
 			* удалить по id: http://localhost:8080/deletedata/id
 			* добавить запись: http://localhost:8080/dataadd + в body JSON
 			
-		DataViewController (так реализовал вывод данных таблицы)
+		DataViewController (так реализовал вывод данных таблицы):
 			* используется для вывода всех данных таблицы на страницу с использованием bootstrap
 			
 	* Посмотреть массив JSON можно используя метод RestControllera, введя в адресную строку http://localhost:8080/alldata
